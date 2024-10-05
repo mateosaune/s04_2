@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles.css">
+    <title>Document</title>
+</head>
+<body>
+
+    <article class="tut">
+        <header class="title">
+            <h5>Examen text</h5>
+            <h2>Lorem ipsum dolor sit, amet consectetur adipisicing elit. </h2>
+        </header>
+        <section class="tutContainer">
+            <div class="tutItems">
+                <img src="./images/law_cat.jpg" alt="">
+                <h3>Section</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+            <div class="tutItems">
+                <img src="./images/law_cat.jpg" alt="">
+                <h3>Section</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+            <div class="tutItems">
+                <img src="./images/law_cat.jpg" alt="">
+                <h3>Section</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+            <div class="tutItems">
+                <img src="./images/law_cat.jpg" alt="">
+                <h3>Section</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
+            </div>
+        </section>
+    </article>
+
+    <section class="gridContainer">
+
+        <div class="gridItem">
+            <img src="./images/law_cat.jpg" alt="">
+            <h5>Notice x</h5>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+            <p>Details</p>
+        </div>
+        <div class="gridItem">
+            <img src="./images/law_cat.jpg" alt="">
+            <h5>Notice x</h5>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+            <p>Details</p>
+        </div>
+        <div class="gridItem">
+            <img src="./images/law_cat.jpg" alt="">
+            <h5>Notice x</h5>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+            <p>Details</p>
+        </div>
+        <div class="gridItem">
+            <img src="./images/law_cat.jpg" alt="">
+            <h5>Notice x</h5>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+            <p>Details</p>
+        </div>
+        <div class="gridItem">
+            <img src="./images/law_cat.jpg" alt="">
+            <h5>Notice x</h5>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+            <p>Details</p>
+        </div>
+        <div class="gridItem">
+            <img src="./images/law_cat.jpg" alt="">
+            <h5>Notice x</h5>
+            <h3>Lorem ipsum dolor sit amet consectetur adipisicing elit</h3>
+            <p>Details</p>
+        </div>
+
+    </section>
+
+    <style>
+
+        .title h5{
+            color: orange;
+            text-align: center;
+
+        }
+
+        .title{
+            height: 200px;
+            width: 500px;
+            padding-left: 18%;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        .tutContainer{
+            margin: 0 auto;
+            width: 700px;
+            height: 200px;
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 10px;
+            margin-bottom: 50px;
+        }
+        .tutItems{
+            border: 1px solid whitesmoke;
+            border-radius: 14px;
+            padding: 16px;
+        }
+
+        .tutItems img {
+            width: 35px;
+        }
+        
+        .gridContainer{
+            margin: 0 auto;
+            width: 800px;
+            height: 300px;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            gap: 10px;
+        }
+
+        .gridItem{
+            border: 1px solid whitesmoke;
+            border-radius: 24px;
+            padding: 15px;
+        }
+        .gridItem img {
+            width: 75px;
+            height: 70px;
+        }
+        .gridItem h3 {
+            color: whitesmoke;
+        }
+        .gridItem h5 {
+            color: goldenrod;
+        }
+        .gridItem p{
+            color: goldenrod;
+        }
+    </style>
+</body>
+</html>
